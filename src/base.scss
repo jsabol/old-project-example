@@ -1,0 +1,11 @@
+@import "../node_modules/@jsabol/toolkit-example/src/colors";
+
+$font-size: 20px;
+
+html {
+  background: $color-blue;
+}
+
+h1 {
+  font-size: $font-size;
+}

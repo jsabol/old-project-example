@@ -1,0 +1,24 @@
+{
+  "name": "@jsabol/old-project-example",
+  "version": "1.0.0",
+  "description": "[Authenticate to the Github Package Registry](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages), first by creating a personal access token, then by running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/base.scss dist/base.css && cp src/index.html dist/index.html",
+    "start": "cd dist && python -m SimpleHTTPServer 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsabol/old-project-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsabol/old-project-example/issues"
+  },
+  "homepage": "https://github.com/jsabol/old-project-example#readme",
+  "dependencies": {
+    "@jsabol/toolkit-example": "^1.0.0"
+  }
+}
